@@ -6,16 +6,17 @@ import { Result } from '@prisma/client'
 
 const EVENTS = [
   'All Events',
-  '50m Freestyle',
-  '100m Freestyle',
-  '200m Freestyle',
-  '50m Butterfly',
-  '100m Butterfly',
-  '50m Backstroke',
-  '100m Backstroke',
-  '50m Breaststroke',
-  '100m Breaststroke',
-  '200m Individual Medley'
+  '50y Freestyle',
+  '100y Freestyle',
+  '200y Freestyle',
+  '100y Butterfly',
+  '500y Freestyle',
+  '200y Freestyle Relay',
+  '100y Backstroke',
+  '400y Freestly Relay',
+  '100y Breaststroke',
+  '200y Individual Medley'
+  '200y Medley Relay'
 ]
 
 export function Leaderboard() {
